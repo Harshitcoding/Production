@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb+srv://harshit:jyeZvRA5dgSyCMDA@cluster0.ao4jlp5.mongodb.net/Signup');
+mongoose.connect('your baceknd url');
 
 const Userschema = new mongoose.Schema({ 
     username: String, 
